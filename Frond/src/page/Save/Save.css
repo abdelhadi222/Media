@@ -1,0 +1,35 @@
+.dakhlImage {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    padding: 10px;
+}
+.SavedImage{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.ImageFromSave {
+    /* min-width: 23.75%;
+     max-width: 23.75%; */
+     width:23.75%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 8px;
+
+}
+.MessageFromSave{
+    width: calc(95%/4);
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 8px;
+}
+
+.dakhlMessage{
+    display:flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}

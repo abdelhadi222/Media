@@ -1,0 +1,227 @@
+.BACKGROUND{
+    width: 100%;
+    height: 300Px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.editFromProfile {
+    width: fit-content;
+    height: 30px;
+    padding: 4px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    color: white;
+  
+  
+
+
+    
+    right: 25px;
+    bottom: 10px;
+}
+.editFromProfileMedia {
+    width: 70px;
+    height: 30px;
+    padding: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+.kjkj{
+display: flex;
+gap: 20px;
+padding: 15px;}
+.pto {
+width: 100%;
+height: fit-content;
+}
+.fileFromProfileOne{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transform: scale(1.1);
+    opacity: 0;
+    color: white;
+    background-color: black;
+}
+.imageUser {
+    width: 150PX;
+    height: 150px;
+    border: 3px solid rgb(122, 122, 122);
+    border-radius: 50%;
+    margin-top: -80px;
+    margin-left: 43%;
+    position: relative;
+}
+.text {
+    text-align: center;
+    margin-top: 10px;
+}
+.fileFromProfile{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+    opacity: 0;
+    /* transform: scale(2.9); */
+}
+
+.ChangeImage {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+   right: 25px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FlowFromProfile{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.PourAccprtOrRefuefromPtofile {
+     display: flex;
+     gap: 10px;
+     width: 20%;
+     height: fit-content;
+     padding: 8px;
+     margin: 10px auto;
+}
+.Infolow {
+    width: 10%;
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    padding: 4px;
+    height: 25px;
+    align-self: center;
+    gap: 10px;
+    cursor:  pointer ;
+}
+.PourAccprtOrRefuefromPtofile button{
+     border: none;
+     border-radius: 5px;
+     width: 100%;
+}
+.redda {
+    background-color: red;
+    color: white;
+}
+.blueee {
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+.CaneFromProfile {
+        padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.aboutUser{
+     width: 100%;
+     height: fit-content;
+     margin-bottom: 30PX;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     gap: 20px;
+     padding: 20PX;
+     margin-top: 20px;
+     background-color: rgb(244, 244, 244);
+} 
+.P{
+    position: relative;
+    height: fit-content;
+     z-index: 100;
+}
+.PP{
+        position: relative;
+    height: fit-content;
+}
+.PP{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 121%;
+    height: 110%;
+    transform: translate(-113px,-50px);
+    background-color: rgba(0, 0, 0, 0.518);
+}
+.P::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 121%;
+    height: 110%;
+    transform: translate(-220px,-50px);
+    background-color: rgba(0, 0, 0, 0.518);
+    z-index: 100;
+ 
+
+}
+.info {
+    margin-top: 30px;margin-bottom: 10px;
+}
+.AddInfo{
+    width: fit-content;
+    background-color: rgb(195, 195, 195);
+    border-radius: 6px;
+    padding: 8px;
+    background-color: blueviolet;
+    color: white;
+}
+.info p {
+    margin-bottom: 8px;
+}
+
+.AllPostForUserProfile {
+    width: 70%;
+margin: 0 auto;
+}
+
+
+.FromFromAddInformation {
+    display: flex;
+    flex-direction: column;
+    background: white;
+        
+    margin-top: 30px;
+}
+.FromFromAddInformation div  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.FromFromAddInformation div input{
+    border: none;
+    background-color: rgb(236, 236, 236);
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+}

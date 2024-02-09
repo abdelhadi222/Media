@@ -1,0 +1,31 @@
+.proById{
+width: 100%;
+height: fit-content;
+background-color: white;
+padding: 30px;
+border-radius: 8px;
+}
+table {
+    width: 100%;
+
+}
+table thead {
+    text-align: center;
+    background-color: rgb(175, 175, 175);
+    padding: 0;
+
+}
+table thead  th{
+
+    color: white;
+    padding: 10px;
+    background: blueviolet;
+}
+
+table tbody {
+    text-align: center;
+    background-color: rgb(227, 227, 227);
+}
+table tbody tr td {
+  padding: 6px;
+}

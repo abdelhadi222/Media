@@ -1,0 +1,235 @@
+.AddPostTop {
+display: grid;
+grid-template-columns: 10% 90%;
+    margin-bottom: 10px;
+    gap: 10Px;
+}
+.AddPostFooter {
+    display: flex;
+    justify-content: space-between;
+
+}
+.ButtonFromAddPost {
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 6px;
+    width: 10%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.InputFromAddPost .inputtt {
+    border: none;
+    padding: 8px;
+    align-self: center;
+}
+.ParentDivFromAddPost {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.DivOneFromHome {
+    width: 70%;
+}
+
+.DivTwoFromHome {
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 10px;
+    height: 250px;
+    overflow-x: hidden;
+}
+
+.File {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.fi{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: 5;
+}
+.Post {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20PX;
+    border-radius: 8px;
+    padding: 10px;
+    height: fit-content;
+}
+.topFromPostStructure {
+    display: flex;
+    justify-content: space-between;
+      
+}
+.Message {
+    width: 100%;
+    height: fit-content;
+     margin-top: 10PX;
+     margin-bottom: 20PX;
+}
+.IconFromStructurPost {
+    display: flex;
+    justify-content: space-between;
+
+}
+.ImageFromStructurPost {margin-bottom: 20Px;text-align: center;width: 100%;}
+.dot3{
+    align-self: center;
+}
+.Post {position: relative;}
+/* for delet Post  */
+.delet{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    width: 15%;
+    background-color: rgb(216, 216, 216);
+    padding: 6px;
+}
+.delet::after{
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: -13px;
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent rgb(216, 216, 216) transparent;
+
+}
+/* for delte Duscction :  */
+.delett{
+       position: absolute;
+    right:40px;
+    top: 70px;
+    width: 17%;
+       background-color: rgb(176 107 243);
+    padding: 6px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    z-index: 160;
+}
+.delett::after{
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: -13px;
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent  rgb(176 107 243) transparent;
+
+}
+
+.InputFromComment{
+    padding: 8px;
+    height: 30PX;
+    align-self: center;
+    width: 70%;
+}
+.fromComment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: none;
+    background-color: rgb(121, 1, 177);
+    color: white;
+     border-radius: 2px;
+     align-self: center;
+     width: 20%;
+     cursor: pointer;
+     border-radius: 0px 10px 10px 0;
+     transition: .5s;
+}
+.fromComment:hover{
+ background-color: rgb(49, 1, 94);
+}
+.DivFromComment {
+    display: flex;
+    margin-top: 20PX;
+    margin-bottom: 10px;
+}
+
+.FrndsFromHoma {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    border-radius: 6px;
+    padding: 10PX;
+    position: relative;
+};
+.AdU{
+width: 30px;
+height: 30px;
+background-color: rgb(0, 132, 255);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.III{
+    position: absolute;
+    left: 15PX;
+    top: 47px;
+}
+
+.serchForFrind{
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+    padding: 9px;
+    height: 30px;
+    background-color: aliceblue;
+    padding-left: 30PX;
+    border-radius: 7px;
+
+
+}
+.nnb {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.ButtonsenInvi {
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Anul{
+
+     background-color: rgb(255, 73, 73);
+     color: rgb(255, 255, 255);
+
+     height: 23px;
+     padding: 3px;
+     width: 23px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     cursor: pointer;
+}

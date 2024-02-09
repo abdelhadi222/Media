@@ -1,0 +1,210 @@
+.whha {
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+    padding: 9px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+
+}
+.formFromAddPro1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #a351a5;
+    padding: 20px;
+    margin-top: 20px;
+    transform: scale(1.3);
+    z-index: 2;
+    
+}
+
+.addImage1 {
+    /* background-color: #8cd5fa; */
+    width: 80%;
+    margin: 0 auto;
+    z-index: 10;
+    padding: 10px;
+    border: 3px  dashed white;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+}
+.bghaa{
+    padding: 5px;
+    background: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px; position: relative;
+}
+.hg1{
+    height: 30px;
+    background-color: #5f0460;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.BoxUplo{
+    padding: 9px;
+    height: 100%;
+    width: 100%;
+    margin-top: -3px;
+    background-color: #5f0460;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.Anu{
+    position: absolute;
+    right: 0px;
+    top: 0px;color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(111, 0, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vvv{
+    width: 15Px;
+    height: 15px;
+    color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    background-color: blueviolet;
+    display: flex; justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.AddSt {
+    width: 50%;
+    height: fit-content;
+    background: white;
+    z-index: 100;
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    border-radius: 20px;
+}
+
+ .black{
+ position: relative;
+ }
+ .black::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 121%;
+    height: 110%;
+    transform: translate(-220px,-50px);
+    background-color: rgba(0, 0, 0, 0.518);
+    z-index: 800;
+ }
+
+   .kjkj{
+     position: relative;
+     background-color: rgb(236 229 243);
+   }
+ .yahoo{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height:fit-content;
+    z-index: 1900;
+    position: fixed;
+    left: 20%;
+    top: 15%;
+}
+.buuab {
+    position: absolute;
+    right: 0 ;
+    top: 0;
+}
+.ButtoAddSt {
+    text-align: right; margin-top: 30px;
+ 
+}
+.ButtoAddSt button {
+       padding: 8px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    cursor:  pointer;
+}
+
+body{position: relative;}
+.BoxStShow {
+     width: 60%;
+     height: 360px;
+     background-color: white;
+     position: fixed;
+     left: 20%;
+     top: 20%;
+     z-index: 2000;
+     border-radius: 10px;
+     background-repeat:no-repeat ;
+     background-size: cover;
+     
+     
+
+}
+/* .fffa{
+    width: 100%;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+} */
+.sh{
+    display: flex;
+    gap:20px;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.ALSH {
+     width: 50%;
+     background-color: white;
+     padding: 10px;
+      border-radius: 10px;
+      z-index: 2000;
+      position: absolute;
+      left: 20%;
+}
+.IconSt1,
+.IconSt2{
+    width: 30Px;
+    height: 30px;
+    background-color: rgb(101, 8, 129);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    
+}
+.IconSt1{margin-right: 695px;}
+.drop {
+    cursor: no-drop;
+    opacity: 0.6;
+}

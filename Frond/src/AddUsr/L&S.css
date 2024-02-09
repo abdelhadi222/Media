@@ -1,0 +1,483 @@
+.All{
+     background-color: #515151;
+     width: 100%;
+     height: 100vh;
+
+}
+form{
+    width: 70%;
+    height: fit-content;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin: 0 auto;
+  position: relative;
+    display: flex;
+}
+/* button */
+.jk {
+    width: 40px;
+    height: 40Px;
+    border-radius: 50%;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    left: 30PX;
+    top: 20px;
+    cursor: pointer;
+}
+
+
+form .div {
+    margin-bottom:40px ;
+}
+.one {
+        padding: 25px;
+        width: 50%;
+}
+.two{
+    width: 50%;
+    background:url('../Images/joshua-kettle-f1Ve8K7y7NQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:0  10px 10px 0;
+}
+
+
+
+
+
+.input-group {
+ position: relative;
+}
+
+.input {
+ border: none;
+
+ border-radius: 7px;
+ background: rgb(237, 237, 237);
+ padding: 1rem;
+ font-size: 1rem;
+ color: black;
+  border:  1px solid black;
+ transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+ height: 30px;
+
+}
+.input-group {
+    margin-bottom: 20px;
+}
+
+.user-label {
+ position: absolute;
+ left: 15px;
+ color: #a9a9a9;
+ pointer-events: none;
+ transform: translateY(0.5rem);
+ transition: 150ms cubic-bezier(0.4,0,0.2,1);
+  transition: 1s;
+}
+.label{
+  display: block;
+}
+
+.input:focus, input:valid {
+ outline: none;
+ border: 1px solid black;
+}
+
+.input:focus ~ label, input:valid ~ label {
+ transform: translateY(-50%) translateX(-5%) scale(0.8);
+ padding: 0 .2em;
+ background-color:  rgb(237, 237, 237);
+ color: #000000;
+}
+
+
+
+
+
+
+/* radoi */
+.radio-button-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+}
+
+.radio-button {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  cursor: pointer;
+  margin-left: 20Px;
+}
+
+.radio-button__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  
+}
+
+.radio-button__label {
+  display: inline-block;
+  padding-left: 6px;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 15px;
+  color: #f2f2f2;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-size: 11px;
+}
+
+.radio-button__custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #555;
+  transition: all 0.3s ease;
+}
+
+.radio-button__input:checked + .radio-button__label .radio-button__custom {
+  background-color: #7c4cf5;
+  
+  border-color: transparent;
+
+  box-shadow: 0 0 20px #904cf580;
+}
+
+.radio-button__input:checked + .radio-button__label {
+  color: #9e4cf5;
+}
+
+.radio-button__label:hover .radio-button__custom {
+
+  border-color: #684cf5;
+  box-shadow: 0 0 20px #58018e80;
+
+
+}
+.phone {
+   margin-bottom: 10px;
+
+}
+
+
+
+
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: #ebeaea;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 35px;
+    width: 330px;
+    outline: none;
+}
+/* button */
+.bt {
+  border: none;
+  user-select: none;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: #cacaca 2px 2px 10px 1px;
+  border-radius: 12px;
+  height: 30px;
+  width: 80%;
+  transition: all 0.2s ease;
+  position: relative;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-bottom: 10Px;
+}
+.msg {
+  height: 0;
+  width: 0;
+  border-radius: 2px;
+  position: absolute;
+  left: 15%;
+  top: 25%;
+}
+
+.bt:hover {
+  transition: all 0.001s ease;
+  background-color: #077083;
+  box-shadow: #97989a 0 0 0 0;
+  transform: translateX(1px) translateY(1px);
+  color: white;
+
+}
+
+.bt:hover .msg {
+  animation: msgRun 2s forwards;
+}
+
+@keyframes msgRun {
+  0% {
+    border-top: #d6d6d9 0 solid;
+    border-bottom: #f2f2f5 0 solid;
+    border-left: #f2f2f5 0 solid;
+    border-right: #f2f2f5 0 solid;
+  }
+
+  20% {
+    border-top: #d6d6d9 14px solid;
+    border-bottom: #f2f2f5 14px solid;
+    border-left: #f2f2f5 20px solid;
+    border-right: #f2f2f5 20px solid;
+  }
+
+  25% {
+    border-top: #d6d6d9 12px solid;
+    border-bottom: #f2f2f5 12px solid;
+    border-left: #f2f2f5 18px solid;
+    border-right: #f2f2f5 18px solid;
+  }
+
+  80% {
+    border-top: transparent 12px solid;
+    border-bottom: transparent 12px solid;
+    border-left: transparent 18px solid;
+    border-right: transparent 18px solid;
+  }
+
+  100% {
+    transform: translateX(150px);
+    border-top: transparent 12px solid;
+    border-bottom: transparent 12px solid;
+    border-left: transparent 18px solid;
+    border-right: transparent 18px solid;
+  }
+}
+
+.googel{
+    width:60%;
+    height: 30px;
+    background-color: #4c8bf5;
+    border: none;
+    padding: 8px;
+    border-right: 2px solid white;
+    color: white;
+    transition: 0.5S;
+    margin-top: 20px;
+} 
+.googel:hover{
+    box-shadow: 0px 0Px 20PX 0PX  #0374d7;
+ cursor: pointer;
+ color: white;
+}
+.gitHup {
+       width:60%;
+    height: 30px;
+    background-color: #000000;
+    border: none;
+    padding: 8px;
+    color: white;
+    transition: 0.5S;
+    margin-top: 20px;
+}
+.gitHup:hover{
+        box-shadow: 0px 0Px 20PX 0PX  #000000;
+ cursor: pointer;
+  color: white;
+}
+
+/* login  */
+.login {
+    display: flex;
+    height: fit-content;
+}
+.twoLogin {
+    width: 50%;
+    background-color: #077083;
+    border-radius: 0px 8px 8px 0px;
+    background: url('../Images/joshua-kettle-f1Ve8K7y7NQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* button send login  */
+.bbbb {
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  border: 3px solid #fff;
+  padding: 7px;
+  font-size: 16px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.bbbb::after, .bbbb::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  transition: .5s;
+}
+
+.bbbb::after {
+  top: -3px;
+  left: -3px;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.bbbb::before {
+  bottom: -3px;
+  right: -3px;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+
+.bbbb:hover {
+  color: #700674;
+  cursor: pointer;
+}
+
+.bbbb:hover::after,
+.bbbb:hover::before {
+  width: calc(50% + 3px);
+  height: calc(50% + 3px);
+  border-color: #6a0283;
+}
+/* button {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 40PX;
+  background-color: #3f5366;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+  margin: 0 auto;
+  cursor:  pointer;
+}
+
+.button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #405f7b;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  height: 30px;
+}
+
+.button span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+.button span:not(hover) {
+  transition: all 1s;
+} */
+
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+
+
+#inputOne{
+ padding-left: 20px;
+}
+
+.or {
+    background-color: #e8e8e8;
+    color: #878787;
+    position: absolute;
+    left: 245px;
+    bottom: 70Px;
+}
+
+
+
+/* date */
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+  max-width: 80%;
+  margin-top: -13px;
+  margin-bottom: 12px;
+
+}
+
+.coolinput label.text {
+  font-size: 0.75rem;
+
+  font-weight: 700;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  background: #e8e8e8;
+  width: fit-content;
+}
+
+.coolinput input[type=date].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  background: #e8e8e8;
+  /* width: 125%; */
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
+
+form input:focus:valid{
+    border-bottom: 3PX solid green;
+}
+form input:focus:not(:valid){
+    border-bottom:3px solid red;
+}
+.dateFromSing {
+  height: 35px;
+  width: 225%;
+}
+.bbbb{
+  width: 40%;
+}

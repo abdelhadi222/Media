@@ -1,0 +1,633 @@
+.sss {
+    width: 150%;
+    background-color: black;
+}
+.Titel {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 10px;
+    background-color: white;
+    border-radius:  7px 7px 0 0;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.ProDelet{
+  border: none;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border-radius: 7px;
+  height: 35Px;
+  width: 15%;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.buG {
+  width: 15%;
+  padding: 4px;
+  background-color: green;
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor:  pointer;
+}
+.DakhlCatr {
+       width: 50%;
+       background-color: #ffffff;
+       padding: 7px;
+       margin: 0 auto;
+       border-radius: 0 0 7px 7px;
+       z-index: 100;
+       height: fit-content;
+       position: relative;
+
+
+}
+.OOOne{
+    position: relative;
+     margin-left: 60px;
+}
+.IconFromMarket{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.InputFromMarket {
+    padding: 8px;
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+    padding-left: 30px;
+}
+.OneCat {
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    background-color: white;
+    transition: .5s;
+    margin-bottom: 5px;
+}
+.OneCat:hover{
+    background-color: rgb(203, 203, 203);
+    cursor: pointer;
+    padding-left: 20Px;
+     border-radius: 8px;
+}
+.allOne{
+    text-align: center;
+}
+/* .Catrgry ,
+.DakhlCatr{
+padding-left: 360px;
+} */
+.Catrgry{
+    display: flex;
+width: 100%;
+justify-content: center;
+
+    margin: 0 auto;
+}
+
+.ac {
+    background-color: rgb(213, 213, 213);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.b {
+ border: 2px solid #8824fb;
+
+ background-color: #8824fb;
+ border-radius: 0.9em;
+ padding: 8px;
+ transition: all ease-in-out 0.2s;
+ font-size: 16px;
+}
+
+.b span {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #fff;
+ font-weight: 600;
+}
+.FromMarkeButtonP{
+    padding-right: 20px;
+    margin-top: 40px;
+    
+
+}
+
+.b:hover {
+
+ background-color: #6912bf;
+  border: 2px solid #2b025a;
+  cursor:  pointer;
+
+}
+
+.formFromAddPro{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebe8eb;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.formFromAddPro .divvvv{
+     display: flex;
+     flex-direction: column;
+
+     margin-bottom: 8px;
+}
+.formFromAddPro div input{
+border: none ; 
+padding:  10px;
+border-radius: 7px;
+}
+
+.addImage {
+    background-color: #82058d;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px  dashed white;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+}
+.fffg{
+   width: 100%;
+   height: 43px;
+   background-color: rgb(127, 96, 143);
+   border-radius: 10px;
+   margin-top: 10px;
+   border:  dashed 2px rgb(255, 255, 255);
+   /* display: flex;
+   justify-content: center; */
+   position: relative;
+   cursor: pointer;
+}
+.fffg input{
+  transform: scale(1);
+  padding: 10px;
+  width: 100%;
+  z-index: 100;
+opacity: 0;
+  
+}
+
+.FromFileFromAddPr{
+     transform: scale(1.1);
+     height: 93px;
+        width: 45%;
+     position: absolute;
+     margin-top: -11px;
+     opacity: 0;
+         cursor: pointer;
+}
+select{
+box-shadow: none;
+border: 0 !important;
+border-radius: 7px;
+padding: 10px;
+width: 100%;
+margin-bottom: 15px;
+}
+select:focus{
+    outline: none;
+}
+
+
+/* botton AddPro  */
+
+.FromAddPro {
+  font-family: inherit;
+  font-size: 17px;
+  background: rgb(88, 1, 97);
+  color: white;
+  padding: 3px;
+  padding-left: 0.9em;
+
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 15%;
+  margin: 0 auto;
+  height: 34px;
+  margin-top: 40Px;
+}
+
+.FromAddPro span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.FromAddPro svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.FromAddPro:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.FromAddPro:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.FromAddPro:hover span {
+  transform: translateX(5em);
+}
+
+.FromAddPro:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+
+.BoxPro {
+     width: 100%;
+     display:flex;
+     flex-direction:column;
+     gap:15px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 7px;
+     height: 350px;
+     text-decoration: none;
+     color: black;
+     
+}
+.BoxHedear {
+    width: 100%;
+    height:200px;
+    background-color: #ffffff;
+
+
+ 
+}
+
+
+
+
+
+
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: #7121d9;
+  --color-outline: #43038480;
+  --color-shadow: #00000080;
+  text-decoration: none;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  padding: 5PX;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 8px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+  height: 25Px;
+}
+
+.btn-content:hover, .btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.3);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow {
+  width: 15px;
+  margin-left: 10px;
+  position: relative;
+  top: 5%;
+}
+  
+/* SVG */
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+  }
+}
+
+.MainMore{
+   display: flex;
+   gap: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+.MainMore div{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addImageMin{
+    background-color: #8cd5fa;
+    padding: 10px;
+    border: 3px  dashed white;
+    border-radius: 7px;
+    color: white;
+      width:30%;
+}
+
+
+.imaaaage {
+   width: 100%;
+   height: 450px;
+   margin: 0 auto;
+   border-radius: 8px 8px 0px 0px;
+        min-height:"400px";
+       background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+
+
+}
+.AddFrindesFromShowPro {
+    width: fit-content;
+    padding: 5px;
+    background-color: #0081b8;
+    color: white;
+    border-radius: 8px;
+    height: fit-content;
+    cursor:pointer;
+
+}
+
+.des {
+  width: 100%;
+  height: fit-content;
+  margin-top: 50PX;
+  margin-bottom: 40px;
+
+}
+
+
+
+/* button Go To Contac */
+.ppp {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: rgb(99 5 126);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  height: 30px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.ppp:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.ppp:hover .icon {
+  transform: translate(4px);
+}
+
+.ppp:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.ppp::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+
+.flx {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+
+
+.fromAddProImaegMin
+{
+  position: relative;
+  width:100px; height: 100px;
+  margin-bottom: 20px;
+  margin-top: 40Px;
+  border-radius: 8px;
+  float: left;
+  margin-right: 20px;
+}
+
+.imaaaage{
+  position: relative;
+}
+
+.numberOfLength {
+   width: 45px;
+   background-color:#000000;
+   height: 35px;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   border-radius: 0px 10px 10px 0px; position: absolute;
+   left: 0;
+   top: 0;
+}
+.b{
+   margin-top: -10px;
+}
+.IconNex {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+     display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.dakhlIcon1,.dakhlIcon2{ opacity: 0.5;transition: 0.5s;}
+.dakhlIcon1:hover{
+opacity: 1;
+}
+.dakhlIcon2:hover{
+opacity: 1;
+}
+.drop{
+  cursor: no-drop;
+}
+.ProNotExsit {
+  width: 100%;
+  height: 200px;
+  display: flex;align-items: center;
+  justify-content: center;
+  color: #9d9d9d;
+}
+
+.InSer{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 6px;
+  display: flex;
+    border-radius: 8px;
+}
+.serrr{
+    display: flex;align-items: center;
+  justify-content: center;
+padding: 8px;
+  background-color: #6603bd;
+  border-radius: 8px;
+  cursor: pointer;
+color: white;
+}
+.InSer input {
+  width: 95%;
+  height: 30px;
+  padding: 5px;
+  margin: 0 auto;
+  border: none;
+  padding: 4px;
+}

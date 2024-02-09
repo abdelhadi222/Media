@@ -1,0 +1,101 @@
+.Admin h1 {
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.Admin {
+     padding: 10px;
+     background-color: #e9e3f2;
+}
+.notpRO {
+     width: 80%;
+     margin: 0px auto;
+     background-color: rgba(137, 43, 226, 0.656);
+     color: white;
+     border-radius: 10px;
+     padding: 10px;
+     text-align: center;
+     
+}
+.buDeletALLpro{
+      position: absolute;
+      right: 15%;
+      padding: 5px;
+      height: 30px;
+      background-color: rgb(110, 1, 165);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+
+}
+.he {
+     width: 100%;
+     height: fit-content;
+     padding: 8px;
+        background-color: rgb(127 3 184);
+     display: flex;
+     flex-wrap: wrap;gap: 30px; justify-content: center;
+     border-radius: 8px;
+     text-align: center;
+     margin-top: 50px;
+}
+.he div {
+     width: fit-content;
+     height: fit-content;
+     padding: 8px;
+     color: black;
+     border-radius: 8px;
+     background-color: white;
+}
+.he .he2 h3 {
+      margin-top: 20px;
+      font-size: 30px;
+}
+.TITEL {
+      text-align: center;
+      margin-top: 50Px;
+      margin-bottom: 10px;
+}
+
+.BoxOfShowProblems {
+     width: 80%;
+     margin: 0 auto;
+     background-color: white;
+     border-radius: 8px;
+     margin-top: 40px;
+     height: fit-content;
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+.dddA select{
+     background-color: rgb(218, 218, 218);
+     border:  1px solid black;
+}
+.desinge {
+     width: 100%;
+     background-color: rgb(227, 227, 227);
+     z-index: 60;
+     border-radius: 8px;
+
+}
+.fiaz {
+     width: 60%;
+}
+.UpdateImageAdmin{
+     display: flex;
+     gap: 10px;
+     width: 100%;
+    
+}
+.allUsersss{
+     width: 100%;
+     height: fit-content;
+     margin: 50px auto;
+     text-align: center;
+     background-color: white;
+     padding: 8px;
+     border-radius: 8px;
+     
+}

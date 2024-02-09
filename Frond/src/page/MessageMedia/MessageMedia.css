@@ -1,0 +1,391 @@
+.PageMessage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 20Px;
+    gap: 20px;
+
+}
+.emo {
+     width: fit-content;
+     height: 70%;
+     position: absolute;
+     right:5%;
+     z-index: 900;
+     bottom:26.5%;
+}
+.EmojiPickerReact .Flex.FlexRow{
+    display: none;
+}
+.EmojiPickerReact .epr-category-nav{
+    padding: 2px;
+}
+.EmojiPickerReact button.epr-emoji .epr-emoji-img{
+    padding: 3px;
+}
+/* .EmojiPickerReact * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+ 
+
+} */
+.AllChat {
+    width: 75%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.UplodeIMessges {
+    width: 30px;
+    height: fit-content;
+    background-color: rgb(127, 40, 170);
+    border-radius: 10px;
+    color: white;
+    position: relative;
+}
+.Call{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 40, 170);
+    color: white;
+    cursor: pointer;
+}
+.eng{
+    display: flex;
+    justify-content: space-between;
+}
+.UplodeIMessges input{
+    width: 100%;
+    background-color: aquamarine;
+    opacity: 1;
+    z-index: 100;
+    position: relative;
+    opacity: 0;
+
+}
+.AllFrindesOnline {
+    width: 23%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+.ChatNotExist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(178, 178, 178);
+    margin-top: 230px;
+
+}
+
+.ChatAp {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(116, 19, 161, 0.898);
+    border-radius: 8px;
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+
+
+}
+
+.BoxOfMes {
+     width: fit-content;
+     background-color: rgb(255, 255, 255);
+     border-radius: 8Px;
+     height: 30px;
+     padding: 4px 7px;
+     color: rgb(114, 114, 114);
+     margin-top: 2px;
+
+     z-index: 100;
+     position: relative;
+
+
+
+    
+}
+.BoxOffMes      {
+     width: fit-content;
+     background-color: rgb(255, 255, 255);
+     border-radius: 8Px;
+     height: 30px;
+     padding: 4px 7px;
+     color: rgb(114, 114, 114);
+     margin-top: 2px;
+     margin-top: -20px;
+     z-index: 100;
+     position: relative;
+
+}
+     
+
+/* message */
+
+.pageMessage {
+    padding: 30px;
+    width: 100%;
+}
+.idvChat {
+     width: 100%;
+     height: 40px;
+     display: flex;
+     background-color: rgb(127, 40, 170);
+     border-radius: 8px 8px 0px 0px ;
+     color: white;
+
+   
+}
+
+.V1 , 
+.V2{
+    width: 266px;
+    background-color: rgb(83, 1, 116);
+    margin: 0 auto;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    padding: 3px;
+    position: absolute;
+    top: 20px;
+    left: 37.4%;
+    gap: '10px';
+    transition: .5s;
+    /* opacity: 0.5; */
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+.V2{
+    position: absolute;
+    top: 300px;
+    z-index: 2000;
+    display: flex;
+    gap: 10px;
+}
+.vvvA{
+    border-radius: 10px;
+}
+.V1{
+    transition: .5s;
+    display: flex;
+    gap: 10px;
+}
+.vvvA:hover .V1{
+    opacity: 1;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Bold {
+    font-weight: 800;
+    align-self: center;
+       
+}
+.headrzChat {
+    display: flex;
+    gap: 10px;
+     padding: 8px;
+     width: 50%;
+}
+
+.mainOfMessage {
+    width: 100%;
+    background-color: white;
+    height: 400px;
+ padding: 10px;
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+.inputSendMessage{
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    background-color: rgb(205, 205, 205);
+     border-radius:  0px 0px 8px 8px;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+}
+.inputSendMessage input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius:9px ;
+    align-self: center;
+
+
+}
+.IconCreatMessage {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(127, 40, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+        cursor: pointer;
+}
+.Mees {
+    min-width: fit-content;
+    min-height: 40px;
+    padding: 10px;
+   background: rgb(92,190,249);
+background: linear-gradient(90deg, rgba(197, 92, 249, 0.494) 0%, rgb(186, 141, 245) 0%, rgb(118, 0, 191) 91%);
+    color: rgb(255, 255, 255);
+    border-radius: 30px 4px 30px 30px;
+    margin-bottom: 20px;
+    /* align-items: end; */
+    /* margin-left: 520px; */
+    
+}
+.fouzo{
+    width: 100%;
+    height: fit-content;
+    padding: 10Px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgb(131, 95, 144);
+    padding: 10px;
+    color: white;
+    /* padding-bottom: 10px; */
+}
+.fouzoo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(250, 159, 159);
+    padding: 10px;
+}
+.MeesConter {
+        width: fit-content;
+    height: 40px;
+    padding: 10px;
+   background: rgb(169, 169, 169);
+background: linear-gradient(90deg, rgba(151, 151, 151, 0.494) 0%, rgb(171, 171, 171) 0%, rgb(208, 208, 208) 91%);
+    color: rgb(255, 255, 255);
+    border-radius:  4px 30px 30px;
+    margin-bottom: 20px;
+}
+.proGress {
+    width: 100%;
+    background-color: rgb(225, 224, 224);
+    height: 10px;
+    border-radius: 10px;
+    z-index: 100;
+    position: relative;
+}
+.proGress .span{
+    content: '';
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgba(57, 1, 85, 0.842);
+    padding: 5px;
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: -35px;
+    right: 0%;
+}
+.delMes{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-self: center;
+     width: 30px;
+     height: 30px;
+     padding: 10px;
+     background-color: white;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: red;
+     opacity: 0.5;
+    font-size: 16px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+.delMes:hover{
+    opacity: 1;
+}
+.proGress span {
+    width: 30%;
+    background-color: rgb(83, 1, 112);
+    height: 10px;
+    border-radius: 10px;
+    z-index: 2000;
+    position: absolute;
+}
+
+
+
+.dots-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #cfb3fc;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.dot:last-child {
+  margin-right: 0;
+}
+
+.dot:nth-child(1) {
+  animation-delay: -0.3s;
+}
+
+.dot:nth-child(2) {
+  animation-delay: -0.1s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    background-color: #dcb3fc;
+    box-shadow: 0 0 0 0 rgba(121, 97, 137, 0.7);
+  }
+
+  50% {
+    transform: scale(1.2);
+    background-color: #6d2e72;
+    box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);
+  }
+
+  100% {
+    transform: scale(0.8);
+    background-color: #956d9b;
+    box-shadow: 0 0 0 0 rgba(134, 102, 144, 0.7);
+  }
+}
